@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Stacks"
+---
+
+Let's implement a function __twice(n)__ that doubles the input. Like any sane person, we whip out our Python and write out a function in the way every human intutively writes a doubling function.
+
+{% highlight python %}
+def twice(n):
+    if n==0:
+        return 0
+    return twice(n-1)+2
+{% endhighlight %}
