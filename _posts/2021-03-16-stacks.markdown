@@ -11,3 +11,76 @@ def twice(n):
         return 0
     return twice(n-1)+2
 {% endhighlight %}
+
+Sure enough, __twice(1)=2__ and __twice(10)=20__, so we have experimentally verified we implemented the function correctly, at least correctly enough to satisfy most tech interviews.
+
+In fact, we can even find out what __twice(1000)__ is! It seems like in Python, the number 2000 is represented as
+
+{% highlight text %}
+twice(1000)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 4, in twice
+  File "<stdin>", line 4, in twice
+  File "<stdin>", line 4, in twice
+  [Previous line repeated 995 more times]
+  File "<stdin>", line 2, in twice
+RecursionError: maximum recursion depth exceeded in comparison
+{% endhighlight %}
+
+Our first instict as coders is to cry, then google the error message. This takes us to the [Stack Overflow page](https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it) or any of the ones like it. It tells that Python has a built in value that limits how deep a function can recurse. This magical number is set to 1000 by default, which honestly is rather weird because it's not even a power of 2.
+
+Thankfully, there is a function in python that lets us increment this value. Simply run
+
+{% highlight python %}
+import sys
+sys.setrecursionlimit(65536)
+twice(1000)
+{% endhighlight %}
+
+And now we get 2000! We can even try out __twice(65536)__ which results in
+
+{% highlight text %}
+Segmentation fault (core dumped)
+{% endhighlight %}
+
+We have reached a stack overflow in Python. There is absolutely no indication as to where this stack came into being within the __twice__ function we wrote. To properly understand the stack, imagine you are climbing a mountain. You are carrying a backpack around with you filled with useful tools you need to make the climb. This backpack is the stack. It contains all the local variables you have defined and might need on your trip. We start with the number __n__ in our backpack which is honestly a pretty reasonable thing to store if we want to calculate __2*n__. As we're walking along, we find a rock: __n-1__. As we enter this recursive call, we decide to put this rock in our backpack and carry it with us. It's a pretty rock. Not that heavy and it'll make for a nice souvenir. But then we encounter rock __n-2__ and rock __n-3__ and so on. If __n__ is small enough, we might be able to carry around the rocks with us and dump them all when we get back home. Otherwise, we will collapse on the side of the mountain trail, just like Python did.
+
+Now one solution you may suggest is carrying less rocks with us. This is a pretty sensible idea that Python doesn't want to do. We only keep the most recent rock (hopefully the prettiest one) with us, taking out the last rock from our backpack to make some space. This is what people call tail call optimization (TCO). The idea is that the recursive call happens at the "tail" of the function, essentially the last thing we compute. Because of this, we don't need to keep around the local variables of that particular recursive call as we will never actually use them again. We store just one rock in our backpack. Most people are content with this and it makes sense.
+
+Why are we climbing a mountain if we are feeble computer scientists? I don't actually know. Let's go back to the function and see where we are actually putting rocks in our backpack. I will use a syntax more like SML this time and we can work together to evaluate __twice(3)__
+
+{% highlight SML %}
+(fun twice n => if n=0 then 0 else twice (n-1) + 2) 3
+{% endhighlight %}
+
+The word twice within the function is refering to the function itself. It would make sense to expand out the function by copy pasting it into itself.
+
+{% highlight SML %}
+(fun twice n => if n=0 then 0 else (fun twice n => if n=0 then 0 else twice (n-1) + 2) (n-1) + 2) 3
+{% endhighlight %}
+
+Now we can step this forward the obvious way
+
+{% highlight SML %}
+(fun twice n => if n=0 then 0 else (fun twice n => if n=0 then 0 else twice (n-1) + 2) (n-1) + 2) 3
+if 3=0 then 0 else (fun twice n => if n=0 then 0 else twice (n-1) + 2) (3-1) + 2
+(fun twice n => if n=0 then 0 else twice (n-1) + 2) 2 + 2
+{% endhighlight %}
+
+And we repeat this again and again
+
+{% highlight SML %}
+...
+(fun twice n => if n=0 then 0 else twice (n-1) + 2) 1 + 2 + 2
+...
+(fun twice n => if n=0 then 0 else twice (n-1) + 2) 0 + 2 + 2 + 2
+...
+0 + 2 + 2 + 2
+...
+6
+{% endhighlight %}
+
+Cool, where did we encounter a stack? Doesn't seem like we did when we stepped it through by hand. Why would a computer create a stack out of thin air?
+
+I am halfway done with writing this but I need to sleep so will finish later
