@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Introduction"
+---
+
+This is my first post and hopefully one of many. I would like to take the time to introduce myself and the purpose of this blog. I am Matias Scharager and at the time of this post, I am an undergraduate junior in computer science at Carnegie Mellon University. I have an abundance of interest in type theory and programming language theory and the sorts and so I would like to write a few things down here that I find to be interesting to think about and worth sharing to others that may seek to walk down similar paths of computer science and logic.
+
+Even though I intend to be as correct as possible in my explanations of the material I’m exploring, I am undoubtedly going to make mistakes and explore ideas that have no real objective truth and are merely my opinions. I will try to be as formal about making distinctions between certainties and posts of interesting shower thoughts I had but I make no guarantees, especially in the field of those seeking the most pedantically correct and undeniable proof of everything. I hope my humor isn’t bad either.
+
+I will say that the hardest challenge so far of this blog was getting the following latex to work. I miss having my fancy latex packages and importing things.
+
+$$\frac{\Gamma\vdash a : A    \quad    \Gamma\vdash b : B}{\Gamma\vdash (a,b) : A * B}$$

@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "How God is Defined: Gödel, Natural Numbers, and Truth"
+---
+I’m sure people have heard of the GEB book (Gödel, Escher, Bach: an Eternal Golden Braid), but what is Gödel theorem really? In order to understand everything, we must first start from scratch. What is a natural number? The easiest definition of this is the following:
+
+$$N ::= 0\mid s(N)$$
+
+What does this even mean? Well, it’s saying that we have some object, and that’s a natural number, and we have a unary function we can apply to natural numbers.
+
+Already, we see several issues. First of all, how do we know 0 exists? What is 0? And why did we arbitrarily name it 0? Well, I don’t know. But it is this way. One way to think of zero is as a thought. We know we have thoughts, so just pick one and that one is now 0. Another way to think of it is as an additive identity where a+0=a but that doesn’t make much sense if we haven’t defined addition yet. So for right now, go out into the world and find something and that is now 0. It would be hard to prove you wrong.
+
+The successor function requires a natural number to apply it to. The only natural number we have so far is 0, so we can apply it to that. We notate s(0) as 1 for convenience. Now how do we know this function isn’t just the identity function and thus the number is just 0? The answer is we don’t. As such, we have to add an axiom saying so.
+
+$$\frac{x\text{ is Nat}}{0\neq s(x)}$$
+
+We want to maintain this same kind of idea where whenever we apply our function, we get a new object, so we define equality based on this. We of course have reflectivity, transitivity, and symmetry, and closure under equality (you can only compare natural numbers to natural numbers). We also have a method of converting between the following two judgements so we can peal off or add on a successor function and keep equality.
+
+$$s(x)=s(y) \longleftrightarrow x=y$$
+
+I really suggest reading the book Mathematics Made Difficult for a better explanation and more fun explanation than the one I gave.
+
+Cool, so now add the rules of intuitional logic and we have ourselves first order arithmetic. We can now prove things as complicated as $$5=5$$. Or a more fun expression we could prove would be $$\exists x.\ x=5$$. Not much else though, so staying in first order arithmetic isn’t that fun. We cannot prove something for all integers, like $$0+x=x$$ for all x. To do this, we need to jump up to second order arithmetic by adding a notion of induction.
+
+$$\frac{n\text{ is Nat}\quad\Gamma\vdash P(0) \quad \Gamma, x \text{ is Nat}, P(x)\vdash P(s(n))}{\Gamma\vdash P(n)}$$
+
+Where P is any propositional formula. Now we can prove things over sets of natural numbers! That’s very useful and cool, and we might just want to stop there and be happy. We have Heyting arithmetic already. But then someone comes along and is like: I want to prove something about sets of sets. Our induction hypothesis doesn’t handle that! Fortunately, we can just go ahead and make a new one that does. We define our whole language to now allow for quantifying over sets of numbers and have a method for applying induction on them. And everything is happy again.
+
+Now another person comes along and is like: I want to prove something about sets of sets of sets. A few curse words later, you rewrite your whole language to take into this kind of induction. Then another person comes along: sets of sets of sets of sets? You can see where this is going and set out make a system that captures all possible requests. And no matter what you try, you just can’t.
+
+This is where Gödel comes in. Gödel is the guy who kept asking for one layer up in logic and destroying your work. Because of Gödel’s theorem, we know that we cannot capture everything there is to prove of the natural numbers in one formalization system. As soon as you write down a framework to work with, there are things that you can’t prove, or your system is flawed (unsound: can introduce falsehood) and thus not very useful at all.
+
+Now, up to this point, what this post covered is proven correct. However, this post is title How God is Defined and we haven’t covered that yet. If you really think about this notion enough, you hope you might come to agree with my point of view.
+
+No matter how much we try to understand God, we never will come close to understanding everything. No formalization system can encapsulate every truth there is of God. Replace God with natural numbers, and the statement still holds by Gödel’s Theorem. How can we not be lead to believe that God is the natural numbers?
+
+I believe that God is the embodiment of all truth. Think of every math proof out there in the world. God is all that and everything we haven’t proven yet, and everything that we will never be able to prove. Because of this, God has even the power to decide undecidable things such as the natural numbers. Logic is an unalterable eternal being that persists even in multiple universes and can be used to define the fundamental blueprints of everything. God is Logic itself.
+
+If the study of computation and programming language theory is actually intrinsically connected to the formalization of proofs and logic, then to write formal proofs in programming languages is the same as seeking to understand God. Even though we will never be able to fully understand God, I want to dedicate my life to understanding how close we can get. Establishing proofs and determining truth makes me feel like a god and what can make me feel more fulfilled than that?
