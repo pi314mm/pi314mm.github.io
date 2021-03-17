@@ -90,7 +90,7 @@ Note that most of these have $$\longmapsto$$ in the premises. This means that th
 
 $$\frac{B\ \mathbf{val}}{E[(\lambda x. A)\ B]\longmapsto E[[B/x]A]}$$
 
-Where $$E$$ is an arbitrary closed expression where the next step is the redux in question. Essentially, we are un-pealing the expression, simplifying the stuff inside, and wrapping the simplified expression back up. The inductive cases are handled by the fact that the evaluation context is arbitrary.
+Where $$E$$ is an arbitrary closed expression where the next step is the redux in question. Essentially, we are pealing the expression, simplifying the stuff inside, and wrapping the simplified expression back up. The inductive cases are handled by the fact that the evaluation context is arbitrary.
 
 Note, this does not make proofs any easier! Even though we only have one rule, we still have all the same inductive cases as before as we need to prove everything for arbitrary evaluation context. It simply changes the location at which we do the proof. It can make things look nicer on paper sometimes, or hurt in other cases. There are even some cases where we need to express things in evaluation contexts as we can incorporate features into the language where the program knows what its current evaluation context is (letcc/throw/C/A).
 
