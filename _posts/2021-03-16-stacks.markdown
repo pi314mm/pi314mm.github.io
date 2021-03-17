@@ -86,7 +86,7 @@ What we do have is an evaluation context. You can clearly see the +2 growing on 
 
 $$\frac{A\longmapsto A'}{A\ B\longmapsto A'\ B}\quad\frac{A\ \mathbf{val}\quad B\longmapsto B'}{A\ B\longmapsto A\ B'}\quad\frac{B\ \mathbf{val}}{(\lambda x. A)\ B\longmapsto [B/x]A}$$
 
-Note that most of these have $\longmapsto$ in the premises. This means that they are simply "induction" steps that are carrying over the stepping of the redux into the top level. The only interesting rule is the last one. We need a way of expressing that this reduction step can happen within an expression instead of just at the top level. This introduces the notion of an evaluation context where we wrap around the surrounding expression. We can express these rules with the single rule
+Note that most of these have $$\longmapsto$$ in the premises. This means that they are simply "induction" steps that are carrying over the stepping of the redux into the top level. The only interesting rule is the last one. We need a way of expressing that this reduction step can happen within an expression instead of just at the top level. This introduces the notion of an evaluation context where we wrap around the surrounding expression. We can express these rules with the single rule
 
 $$\frac{B\ \mathbf{val}}{E[(\lambda x. A)\ B]\longmapsto E[[B/x]A]}$$
 
