@@ -3,12 +3,11 @@ layout: post
 title:  "Stacks"
 ---
 
-Let's implement a function __twice(n)__ that doubles the input. Like any sane person, we whip out our Python and write out a function in the way every human intutively writes a doubling function.
+Let's implement a function __twice(n)__ that doubles the input. Like any sane person, we whip out our Python and write out a function in the way every human intuitively writes a doubling function.
 
 {% highlight python %}
 def twice(n):
     if n==0:
-        return 0
     return twice(n-1)+2
 {% endhighlight %}
 
@@ -28,7 +27,7 @@ Traceback (most recent call last):
 RecursionError: maximum recursion depth exceeded in comparison
 {% endhighlight %}
 
-Our first instict as coders is to cry, then google the error message. This takes us to the [Stack Overflow page](https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it) or any of the ones like it. It tells that Python has a built in value that limits how deep a function can recurse. This magical number is set to 1000 by default, which honestly is rather weird because it's not even a power of 2.
+Our first instinct as coders is to cry, then google the error message. This takes us to the [Stack Overflow page](https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it) or any of the ones like it. It tells that Python has a built in value that limits how deep a function can recurse. This magical number is set to 1000 by default, which honestly is rather weird because it's not even a power of 2.
 
 Thankfully, there is a function in python that lets us increment this value. Simply run
 
@@ -54,7 +53,7 @@ Why are we climbing a mountain if we are feeble computer scientists? I don't act
 (fun twice n => if n=0 then 0 else twice (n-1) + 2) 3
 {% endhighlight %}
 
-The word twice within the function is refering to the function itself. It would make sense to expand out the function by copy pasting it into itself.
+The word twice within the function is referring to the function itself. It would make sense to expand out the function by copy pasting it into itself.
 
 {% highlight SML %}
 (fun twice n => if n=0 then 0 else (fun twice n => if n=0 then 0 else twice (n-1) + 2) (n-1) + 2) 3
@@ -83,4 +82,28 @@ And we repeat this again and again
 
 Cool, where did we encounter a stack? Doesn't seem like we did when we stepped it through by hand. Why would a computer create a stack out of thin air?
 
-I am halfway done with writing this but I need to sleep so will finish later
+What we do have is an evaluation context. You can clearly see the +2 growing on the side of the expression while we are zooming in on the redux. For example, consider the following rules for the dynamics of function application in an eager setting.
+
+$$\frac{A\longmapsto A'}{A\ B\longmapsto A'\ B}\quad\frac{A\ \mathbf{val}\quad B\longmapsto B'}{A\ B\longmapsto A\ B'}\quad\frac{B\ \mathbf{val}}{(\lambda x. A)\ B\longmapsto [B/x]A}$$
+
+Note that most of these have $\longmapsto$ in the premises. This means that they are simply "induction" steps that are carrying over the stepping of the redux into the top level. The only interesting rule is the last one. We need a way of expressing that this reduction step can happen within an expression instead of just at the top level. This introduces the notion of an evaluation context where we wrap around the surrounding expression. We can express these rules with the single rule
+
+$$\frac{B\ \mathbf{val}}{E[(\lambda x. A)\ B]\longmapsto E[[B/x]A]}$$
+
+Where $$E$$ is an arbitrary closed expression where the next step is the redux in question. Essentially, we are un-pealing the expression, simplifying the stuff inside, and wrapping the simplified expression back up. The inductive cases are handled by the fact that the evaluation context is arbitrary.
+
+Note, this does not make proofs any easier! Even though we only have one rule, we still have all the same inductive cases as before as we need to prove everything for arbitrary evaluation context. It simply changes the location at which we do the proof. It can make things look nicer on paper sometimes, or hurt in other cases. There are even some cases where we need to express things in evaluation contexts as we can incorporate features into the language where the program knows what its current evaluation context is (letcc/throw/C/A).
+
+This method of expressing evaluation contexts only makes sense in a pen and paper setting where it doesn't cause efficiency concerns to unwrap and wrap the evaluation context in every step. Bob Harper expresses an alternative for expressing these evaluation contexts using stack frames in [PFPL](http://www.cs.cmu.edu/~rwh/pfpl/), where we don't wrap and unwrap in every step and instead express different rules for carrying the results of the evaluation back up the stack frames. While this method relates best to how a computer would actually be executing the code, most PL researchers go with the other version of evaluation contexts because it's pretty easy to do on paper and being less explicit in the rules of wrapping and unwrapping makes proofs easier.
+
+When we think of a function call, it makes sense to take this evaluation context as a snapshot of the current state of the machine during execution. We set this snapshot aside and execute the function. Once we are done with the function call, we simply wrap up the result with the evaluation context we set aside. This represents returning to the function call. The evaluation context wrapped around the result becomes a new expression that we simply continue to execute.
+
+Evaluation contexts are not exactly the kind of thing that Python or C are dealing with when they do function calls. Instead, we see an interaction between these evaluation contexts and scoping of local state in the stack. We even have a heap! This means our dynamics contain three separate components, potentially looking something like this:
+
+$$H, S, E || e$$
+
+Where $$E$$ is the evaluation context and $$e$$ is the expression like before, but we also carry around a set of locally scoped variables on the stack $$S$$ and a set of globally scoped variables on the heap $$H$$. Now we see where our backpack filled with rocks came from! It's the letter $$S$$. When we call a new function, this stack expands to take in all the new local variables needed to run the function, and we shrink it back down once we are done with the function. C does this this "shrinking back down" incorrectly as it allows reference pointers to stack space that has been deleted, causing several likely bugs. Fixing this would require strengthening the theory to include things such as mobile types and a lot of careful case analyzing to make sure we don't cause these bugs. In conclusion, the stack is a mess.
+
+There is a technique called Continuation Passing Style (CPS) that allows us a more expressive control over the function calls and other components of evaluation by making the wrapping up step of evaluation contexts an explicit procedure within our program. Evaluation contexts are pretty much the same thing as continuations. Because we are able to see the continuations represented within our code, we can see where we can use TCO directly, and in many cases avoid needing to use the stack at all.
+
+There's so many fun things to do with evaluation contexts! These expressions with a hole in them which we use to wrap and unwrap other expressions show up in a lot of places. It is so much nicer not having to deal with the stack if we don't have to. Carrying a bag of rocks is tough. Just remember, it is better to think of these programs and function calls as homomorphisms between different programs during evaluation instead of jotting down notes on a stack and treating the code as data as we run. The mathematical elegance of it makes things a lot prettier.
