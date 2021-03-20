@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Logically Speaking
+title: Matias Scharager
+author: Matias Scharager
 email: matias.scharager@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I am a Carnegie Mellon University undergrad studying programming language theory
+#description: >- # this means to ignore newlines until "baseurl:"
+#  I am a Carnegie Mellon University undergrad studying programming language theory
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
