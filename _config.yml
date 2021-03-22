@@ -25,7 +25,8 @@ email: matias.scharager@gmail.com
 #  I am a Carnegie Mellon University undergrad studying programming language theory
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+twitter_username: pi314mm
+linkedin_username: pi314mm
 github_username:  pi314mm
 
 # Build settings
