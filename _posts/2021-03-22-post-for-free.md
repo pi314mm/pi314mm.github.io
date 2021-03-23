@@ -3,7 +3,7 @@ layout: post
 title:  "Post for free!"
 ---
 
-I am writing about a proof strategy that has become well known as a "free proof" due to the name given in Walder's _Theorem's for free!_ paper. It is utilizing Reynold's abstraction theorem to prove two terms are related even though they might not seem related if we were to specify a type.
+I am writing about a proof strategy that has become well known as a "free proof" due to the name given in Wadler's _Theorem's for free!_ paper. It is utilizing Reynold's abstraction theorem to prove two terms are related even though they might not seem related if we were to specify a type.
 
 Let's say that we have a relation that lets us compare arbitrary objects. The relation holds only when the two objects are equivalent. I am purposely being vague in the definition here because I don't want to sit here and list every classification of objects in the universe, but let's say it's defined by common sense.
 
