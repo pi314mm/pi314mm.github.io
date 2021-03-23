@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hacking Abstraction"
+title:  "Post for free!"
 ---
 
 I am writing about a proof strategy that has become well known as a "free proof" due to the name given in Walder's _Theorem's for free!_ paper. It is utilizing Reynold's abstraction theorem to prove two terms are related even though they might not seem related if we were to specify a type.
