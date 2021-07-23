@@ -9,7 +9,7 @@ About Me
 
 I am an incoming first year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification.
 
-My undergrad was at CMU where I graduated in 2021 with a Computer Science degree, minor in Logic and Computation, SCS Concentration in Principles of Programming Languages, and university and college honors.
+My undergrad was at CMU where I graduated in 2021 with a Computer Science degree
 
 Papers
 ------
