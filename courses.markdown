@@ -3,16 +3,16 @@ title: Courses
 layout: home
 ---
 
-# PhD
+## PhD
 
-## Fall 2021
+### Fall 2021
 
 Plan to take
 
 - 15814 Type Systems and Programming Languages
 - 15857 Analytical Performance Modeling & Design of Computer Systems
 
-# Undergrad
+## Undergrad
 
 My undergrad at CMU consisted of a great mixture of classes. When I was first starting out at CMU, I wasn't sure what I wanted to specialize in because I was interested in several areas.
 
@@ -29,21 +29,21 @@ I graduated in Spring 2021 with
 - University Honors
 - SCS College Honors
 
-## Spring 2021
+### Spring 2021
 
 - 07599 SCS Honors Undergraduate Research Thesis
 - 15414 Bug Catching
 - 82278 Japanese Film and Literature
 - 98000 STUCO: Teaching Practicum
 
-## Fall 2020
+### Fall 2020
 
 - 07599 SCS Honors Undergraduate Research Thesis
 - 15411 Compiler Design
 - 15591 Independent Study in Computer Science
 - 98000 STUCO: Teaching Practicum
 
-## Spring 2020
+### Spring 2020
 
 - 15317 Constructive Logic
 - 15400 Research Practicum in Computer Science
@@ -53,7 +53,7 @@ I graduated in Spring 2021 with
 - 98242 Student Taught Course: Esoteric Languages
 - 99350 Global Cities: Smart Technology
 
-## Fall 2019
+### Fall 2019
 
 - 15295 Competition Programming and Problem Solving
 - 15300 Research & Innovation in Computer Science
@@ -62,7 +62,7 @@ I graduated in Spring 2021 with
 - 80411 Proof Theory
 - 98295 Student Taught Course: Lock Picking
 
-## Spring 2019
+### Spring 2019
 
 - 15213 Introduction to Computer Systems
 - 15295 Competition Programming and Problem Solving
@@ -71,7 +71,7 @@ I graduated in Spring 2021 with
 - 80419 Interactive Theorem Proving
 - 98330 Student Taught Course: Personal Development
 
-## Fall 2018
+### Fall 2018
 
 - 15210 Parallel and Sequential Data Structures and Algorithms
 - 15295 Competition Programming and Problem Solving
@@ -81,14 +81,14 @@ I graduated in Spring 2021 with
 - 57149 Basic Harmony
 - 98317 Student Taught Course: Type Theory
 
-## Spring 2018
+### Spring 2018
 
 - 15150 Principles of Functional Programming
 - 15251 Great Ideas in Theoretical Computer Science
 - 21325 Probability
 - 33114 Physics of Musical Sound
 
-## Fall 2017
+### Fall 2017
 
 - 15051 Discrete Math Primer
 - 15122 Principles of Imperative Computation
@@ -100,7 +100,7 @@ I graduated in Spring 2021 with
 - 76101 Interpretation & Argument
 - 99101 Computing @ Carnegie Mellon
 
-## Transfer Credit
+### Transfer Credit
 
 - 15112 Fundamentals of Programming & Computer Science
 - 21120 Differential and Integral Calculus
