@@ -7,6 +7,7 @@ PhD
 ====
 Fall 2021
 ---------
+
 Plan to take
 
 - 15814 Type Systems and Programming Languages
