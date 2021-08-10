@@ -9,7 +9,7 @@ I have a large collection of fortune cookies. I am not knowledgeable in fortune 
 
 If I had to pick a favorite fortune cookie fortune, it would be "Pass the bill to the person of your left." I have no great story to tell about this fortune cookie as I think it was simply one of my little brothers that got it and they weren't paying the bill, nor were my parents to the left of them. But I would love it if somewhere out in the world, someone actually got this fortune and made someone else pay for their meal. Sounds like a good comedy plot.
 
-The following fortunes all seem to have these blue rectangles on the fortune side in each corner. This is likely something to indicate where to cut or something. Some of them have this website on them https://secondfortune.com/ which seems to be the manufacturer, although not all of them do so I don't know. They are listed in alphabetical order. Note that repeats mean that I have two copies of the same fortune. I don't know the probability of this, but it would be interesting to know.
+The following fortunes all seem to have these blue rectangles on the fortune side in each corner. This is likely something to indicate where to cut or something. Some of them have this website on them [https://secondfortune.com/](https://secondfortune.com/) which seems to be the manufacturer, although not all of them do so I don't know. They are listed in alphabetical order. Note that repeats mean that I have two copies of the same fortune. I don't know the probability of this, but it would be interesting to know.
 
 - A bargain is something you don't need at a price you can't resist.
 - A calm sea does not make a skilled sailor.
