@@ -7,9 +7,8 @@ layout: home
 
 ### Fall 2021
 
-Plan to take
+Currently taking
 
-- 15814 Type Systems and Programming Languages
 - 15857 Analytical Performance Modeling & Design of Computer Systems
 
 ## Undergrad

@@ -7,9 +7,9 @@ layout: home
 About Me
 --------
 
-I am an incoming first year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification.
+I am a first year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. Currently in the advisor matching process
 
-My undergrad was at CMU where I graduated in 2021 with a Computer Science degree
+My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelors
 
 Papers
 ------
@@ -21,6 +21,7 @@ Papers
 
 Teaching Experience
 -------------------
+- 15317 TA: Constructive Logic, Fall 2021
 - 15312 TA: Foundations of Programming Languages, Fall 2020
 - 98038 Co-Instructor: Student Taught Course Anime From Astro Boy to Your Name, Fall 2020 and Spring 2021
 - 15451 TA: Algorithm Design and Analysis, Fall 2019
