@@ -7,7 +7,7 @@ layout: home
 About Me
 --------
 
-I am a first year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. Currently in the advisor matching process
+I am a first year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
 
 My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelors
 
@@ -40,4 +40,4 @@ I love watching anime and am involved in anime-like clubs like cosplay
 
 I am a gamer. I like rhythm games (Dance Dance Revolution and BeatSaber for example), VR games, puzzle games, and platformers. Yes, I play league, no, I'm not good at it
 
-I also like doing exercise that increases coordination and dexterity. I have been doing parkour for three years and I've sampled other similar activities like fencing and bouldering for short chunks of time
+I also like doing exercise that increases coordination and dexterity. I have been doing parkour for three years and I've sampled other similar activities

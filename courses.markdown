@@ -47,7 +47,7 @@ I graduated in Spring 2021 with
 - 15317 Constructive Logic
 - 15400 Research Practicum in Computer Science
 - 15417 HOT Compilation
-- 15819 Advancec Topics in Programming Languages: Computational Type Theory
+- 15819 Advanced Topics in Programming Languages: Computational Type Theory
 - 80150 Nature of Reason
 - 98242 Student Taught Course: Esoteric Languages
 - 99350 Global Cities: Smart Technology
