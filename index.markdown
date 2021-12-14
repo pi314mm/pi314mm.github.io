@@ -13,11 +13,18 @@ My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachel
 
 Papers
 ------
+### Conference Papers
+
+- **M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer.  
+_Verified Quadratic Virtual Subsitution for Real Arithmetic._  
+Formal Methods (FM) 2021. ([doi](https://link.springer.com/chapter/10.1007%2F978-3-030-90870-6_11) | [arXiv](https://arxiv.org/pdf/2105.14183.pdf) | [AFP](https://www.isa-afp.org/entries/Virtual_Substitution.html))
+
+
 ### Preprints/Work in Progress
 
-- **M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer. _Verified Quadratic Virtual Subsitution for Real Arithmetic._ Accepted to Formal Methods (FM) 2021, to appear. ([arXiv](https://arxiv.org/pdf/2105.14183.pdf))
-
-- **M. Scharager** and K. Crary. _Full Abstraction Correctness of the Continuation Passing Style Translation using Type-Oriented Merging._ Undergrad Thesis, yet to be published
+- **M. Scharager** and K. Crary.  
+_Full Abstraction Correctness of the Continuation Passing Style Translation using Type-Oriented Merging._  
+Undergrad Thesis, yet to be published
 
 Teaching Experience
 -------------------

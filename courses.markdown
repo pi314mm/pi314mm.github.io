@@ -5,9 +5,14 @@ layout: home
 
 ## PhD
 
-### Fall 2021
+### Spring 2022
 
-Currently taking
+Intend to take
+
+- 15819 Advanced Topics in Programming Languages
+- 15780 Graduate AI
+
+### Fall 2021
 
 - 15857 Analytical Performance Modeling & Design of Computer Systems
 
