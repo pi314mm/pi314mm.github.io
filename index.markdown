@@ -11,6 +11,11 @@ I am a first year PhD at Carnegie Mellon University's (CMU) Computer Science Dep
 
 My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelors
 
+Type Cafe Discord
+-----------------
+
+I'm experimentally running a discord server dedicated to type theory for anyone to join! Please join via [this link](https://discord.gg/MphYSdC3nx) and introduce yourself!
+
 Papers
 ------
 ### Conference Papers
