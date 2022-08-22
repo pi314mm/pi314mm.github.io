@@ -53,4 +53,4 @@ I love watching anime and am involved in anime-like clubs like cosplay. I attend
 
 I am a gamer. I like rhythm games (Pump it Up, Dance Dance Revolution, and BeatSaber for example), VR games, puzzle games, and platformers
 
-I also like doing exercise that increases coordination and dexterity. I have been doing parkour for three years and I've sampled other similar activities
+I also like doing exercise that increases coordination and dexterity. I did parkour for three years (before covid killed the club) and I've sampled other similar activities
