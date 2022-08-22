@@ -37,7 +37,7 @@ Around the end of sophomore year, I realized I loved the areas of logic and form
 My senior year was a "mock phd" year where I stopped taking as many classes and focused primarily on research, although still completing the remaining graduation requirements I needed. What was originally planned as an additional math major track thinned down to a math minor which thinned down even more into a philosophy minor, giving me greater freedom to dedicate myself to the programming language field through independent research. The work was exceedingly brutal, especially due to covid making everything worse, but I am really proud to have been accepted to a PhD at CMU.
 
 I graduated in Spring 2021 with
-- Bachelors in Computer Science
+- Bachelors in Computer Science (3.67 GPA)
 - Minor in Logic and Computation
 - SCS Concentration in Principles of Programming Languages
 - University Honors
