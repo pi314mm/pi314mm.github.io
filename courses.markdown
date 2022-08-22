@@ -37,7 +37,7 @@ I graduated in Spring 2021 with
 - University Honors
 - SCS College Honors
 
-### Spring 2021
+### Spring 2021, Dean's List, High Honors
 
 - 07599 SCS Honors Undergraduate Research Thesis
 - 15414 Bug Catching
@@ -61,7 +61,7 @@ I graduated in Spring 2021 with
 - 98242 Student Taught Course: Esoteric Languages
 - 99350 Global Cities: Smart Technology
 
-### Fall 2019
+### Fall 2019, Dean's List, High Honors
 
 - 15295 Competition Programming and Problem Solving
 - 15300 Research & Innovation in Computer Science
@@ -96,7 +96,7 @@ I graduated in Spring 2021 with
 - 21325 Probability
 - 33114 Physics of Musical Sound
 
-### Fall 2017
+### Fall 2017, Dean's List
 
 - 15051 Discrete Math Primer
 - 15122 Principles of Imperative Computation
