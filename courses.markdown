@@ -5,16 +5,20 @@ layout: home
 
 ## PhD
 
-### Spring 2022
+### Fall 2022 (current)
 
-Intend to take
+- 80713 Category Theory
+
+### Spring 2022
 
 - 15819 Advanced Topics in Programming Languages
 - 15780 Graduate AI
+- 15996 Intro to Justice, Equity, Diversity, and Inclusion in Computer Science
 
 ### Fall 2021
 
 - 15857 Analytical Performance Modeling & Design of Computer Systems
+- 15996 Introductory Course
 
 ## Undergrad
 

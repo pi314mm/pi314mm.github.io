@@ -7,7 +7,7 @@ layout: home
 About Me
 --------
 
-I am a first year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
+I am a second year PhD at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
 
 My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelors
 
@@ -41,6 +41,7 @@ Teaching Experience
 Work Experience
 ---------------
 
+- 2022: Software Engineering Intern at Google, Sunnyvale
 - 2020: Software Engineering Intern at Facebook, Menlo Park
 - 2019: Applied Research Mathematician and Software Engineer Intern at the Department of Defense
 - 2018: Cybersecurity Developer Intern at Northrop Grumman Xetron
@@ -48,8 +49,8 @@ Work Experience
 
 Hobbies
 -------
-I love watching anime and am involved in anime-like clubs like cosplay
+I love watching anime and am involved in anime-like clubs like cosplay. I attend various anime conventions
 
-I am a gamer. I like rhythm games (Dance Dance Revolution and BeatSaber for example), VR games, puzzle games, and platformers. Yes, I play league, no, I'm not good at it
+I am a gamer. I like rhythm games (Pump it Up, Dance Dance Revolution, and BeatSaber for example), VR games, puzzle games, and platformers
 
 I also like doing exercise that increases coordination and dexterity. I have been doing parkour for three years and I've sampled other similar activities
