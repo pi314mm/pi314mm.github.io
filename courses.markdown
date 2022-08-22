@@ -3,6 +3,12 @@ title: Courses
 layout: home
 ---
 
+Format:
+
+- Grade CourseId CourseName
+
+A grade of P stands for Pass (no letter grade) and TR stands for TRansfer credit
+
 ## PhD
 
 ### Fall 2022 (current)
@@ -11,14 +17,14 @@ layout: home
 
 ### Spring 2022
 
-- 15819 Advanced Topics in Programming Languages
-- 15780 Graduate AI
-- 15996 Intro to Justice, Equity, Diversity, and Inclusion in Computer Science
+- P 15819 Advanced Topics in Programming Languages
+- P 5780 Graduate AI
+- P 15996 Intro to Justice, Equity, Diversity, and Inclusion in Computer Science
 
 ### Fall 2021
 
-- 15857 Analytical Performance Modeling & Design of Computer Systems
-- 15996 Introductory Course
+- P 15857 Analytical Performance Modeling & Design of Computer Systems
+- P 15996 Introductory Course
 
 ## Undergrad
 
@@ -39,84 +45,84 @@ I graduated in Spring 2021 with
 
 ### Spring 2021, Dean's List, High Honors
 
-- 07599 SCS Honors Undergraduate Research Thesis
-- 15414 Bug Catching
-- 82278 Japanese Film and Literature
-- 98000 STUCO: Teaching Practicum
+- A 07599 SCS Honors Undergraduate Research Thesis
+- A 15414 Bug Catching
+- B 82278 Japanese Film and Literature
+- P 98000 STUCO: Teaching Practicum (Co-instrutor of Anime course)
 
 ### Fall 2020
 
-- 07599 SCS Honors Undergraduate Research Thesis
-- 15411 Compiler Design
-- 15591 Independent Study in Computer Science
-- 98000 STUCO: Teaching Practicum
+- A 07599 SCS Honors Undergraduate Research Thesis
+- B 15411 Compiler Design
+- A 15591 Independent Study in Computer Science
+- P 98000 STUCO: Teaching Practicum  (Co-instrutor of Anime course)
 
 ### Spring 2020
 
-- 15317 Constructive Logic
-- 15400 Research Practicum in Computer Science
-- 15417 HOT Compilation
-- 15819 Advanced Topics in Programming Languages: Computational Type Theory
-- 80150 Nature of Reason
-- 98242 Student Taught Course: Esoteric Languages
-- 99350 Global Cities: Smart Technology
+- A 15317 Constructive Logic
+- A 15400 Research Practicum in Computer Science
+- A 15417 HOT Compilation
+- P 15819 Advanced Topics in Programming Languages: Computational Type Theory
+- A 80150 Nature of Reason
+- P 98242 Student Taught Course: Esoteric Languages
+- B 99350 Global Cities: Smart Technology
 
 ### Fall 2019, Dean's List, High Honors
 
-- 15295 Competition Programming and Problem Solving
-- 15300 Research & Innovation in Computer Science
-- 15312 Foundations of Programming Languages
-- 80310 Formal Logic
-- 80411 Proof Theory
-- 98295 Student Taught Course: Lock Picking
+- A 15295 Competition Programming and Problem Solving
+- B 15300 Research & Innovation in Computer Science
+- A 15312 Foundations of Programming Languages
+- A 80310 Formal Logic
+- A 80411 Proof Theory
+- P 98295 Student Taught Course: Lock Picking
 
 ### Spring 2019
 
-- 15213 Introduction to Computer Systems
-- 15295 Competition Programming and Problem Solving
-- 15451 Algorithm Design and Analysis
-- 21373 Algebraic Structures
-- 80419 Interactive Theorem Proving
-- 98330 Student Taught Course: Personal Development
+- A 15213 Introduction to Computer Systems
+- A 15295 Competition Programming and Problem Solving
+- B 15451 Algorithm Design and Analysis
+- B 21373 Algebraic Structures
+- A 80419 Interactive Theorem Proving
+- P 98330 Student Taught Course: Personal Development
 
 ### Fall 2018
 
-- 15210 Parallel and Sequential Data Structures and Algorithms
-- 15295 Competition Programming and Problem Solving
-- 15381 Artificial Intelligence
-- 21301 Combinatorics
-- 33104 Experimental Physics
-- 57149 Basic Harmony
-- 98317 Student Taught Course: Type Theory
+- B 15210 Parallel and Sequential Data Structures and Algorithms
+- A 15295 Competition Programming and Problem Solving
+- B 15381 Artificial Intelligence
+- B 21301 Combinatorics
+- A 33104 Experimental Physics
+- A 57149 Basic Harmony
+- P 98317 Student Taught Course: Type Theory
 
 ### Spring 2018
 
-- 15150 Principles of Functional Programming
-- 15251 Great Ideas in Theoretical Computer Science
-- 21325 Probability
-- 33114 Physics of Musical Sound
+- A 15150 Principles of Functional Programming
+- B 15251 Great Ideas in Theoretical Computer Science
+- A 21325 Probability
+- B 33114 Physics of Musical Sound
 
 ### Fall 2017, Dean's List
 
-- 15051 Discrete Math Primer
-- 15122 Principles of Imperative Computation
-- 15128 Freshman Immigration Course
-- 15131 Great Practical Ideas of Computer Science
-- 15151 Mathematical Foundations for Computer Science
-- 21260 Differential Equations
-- 57171 Introduction to Music Technology
-- 76101 Interpretation & Argument
-- 99101 Computing @ Carnegie Mellon
+- P 15051 Discrete Math Primer
+- A 15122 Principles of Imperative Computation
+- A 15128 Freshman Immigration Course
+- A 15131 Great Practical Ideas of Computer Science
+- B 15151 Mathematical Foundations for Computer Science
+- A 21260 Differential Equations
+- A 57171 Introduction to Music Technology
+- A 76101 Interpretation & Argument
+- P 99101 Computing @ Carnegie Mellon
 
 ### Transfer Credit
 
-- 15112 Fundamentals of Programming & Computer Science
-- 21120 Differential and Integral Calculus
-- 21122 Integration and Approximation
-- 21259 Calculus in 3-D 
-- 21241 Matrices and Linear Transformations
-- 33141 Physics I for Engineering Students
-- 33142 Physics II for Engineering and Physics Students
-- 36201 Statistical Reasoning and Practice
-- 84012 AP Government and Politics: US
-- 85011 AP Psychology
+- TR 15112 Fundamentals of Programming & Computer Science
+- TR 21120 Differential and Integral Calculus
+- TR 21122 Integration and Approximation
+- TR 21259 Calculus in 3-D 
+- TR 21241 Matrices and Linear Transformations
+- TR 33141 Physics I for Engineering Students
+- TR 33142 Physics II for Engineering and Physics Students
+- TR 36201 Statistical Reasoning and Practice
+- TR 84012 AP Government and Politics: US
+- TR 85011 AP Psychology
