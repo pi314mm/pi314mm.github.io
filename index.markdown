@@ -43,7 +43,7 @@ Work Experience
 
 - 2022: Software Engineering Intern at Google, Sunnyvale
 - 2020: Software Engineering Intern at Facebook, Menlo Park
-- 2019: Applied Research Mathematician and Software Engineer Intern at the Department of Defense
+- 2019: Applied Research Mathematician and Software Engineer Intern at the National Security Agency
 - 2018: Cybersecurity Developer Intern at Northrop Grumman Xetron
 - 2015: Machine Shop Intern at Max Planck Florida Institute for Neuroscience
 
