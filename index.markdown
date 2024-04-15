@@ -28,7 +28,7 @@ Teaching Experience
 
 Work Experience
 ---------------
-
+- 2023: Software Engineering Intern at Amazon, Seattle
 - 2022: Software Engineering Intern at Google, Sunnyvale
 - 2020: Software Engineering Intern at Facebook, Menlo Park
 - 2019: Applied Research Mathematician and Software Engineer Intern at the National Security Agency
