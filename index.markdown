@@ -10,13 +10,15 @@ I am a third-year Ph.D. student at Carnegie Mellon University's (CMU) Computer S
 
 My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelor
 
-Papers
+Research
 ------
-### Conference Papers
+- _Compactness via Pattern Stepping Bisimulation_
+**M. Scharager**
+CMU SCS technical report ([pdf](http://reports-archive.adm.cs.cmu.edu/anon/2024/CMU-CS-24-117.pdf))
 
-- **M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer.  
-_Verified Quadratic Virtual Subsitution for Real Arithmetic._  
-Formal Methods (FM) 2021. ([doi](https://link.springer.com/chapter/10.1007%2F978-3-030-90870-6_11) | [arXiv](https://arxiv.org/pdf/2105.14183.pdf) | [AFP](https://www.isa-afp.org/entries/Virtual_Substitution.html))
+- _Verified Quadratic Virtual Subsitution for Real Arithmetic_
+**M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer    
+Formal Methods (FM) 2021 ([doi](https://link.springer.com/chapter/10.1007%2F978-3-030-90870-6_11) | [arXiv](https://arxiv.org/pdf/2105.14183.pdf) | [AFP](https://www.isa-afp.org/entries/Virtual_Substitution.html))
 
 
 Teaching Experience
@@ -39,4 +41,4 @@ Hobbies
 -------
 I love watching anime and am involved in anime-like clubs like cosplay. I attend various anime conventions.
 
-I am a gamer. I am a dedicated [Genshin](https://akasha.cv/profile/602552784)/Star Rail player. I like rhythm games (Pump it Up, Dance Dance Revolution, and BeatSaber for example), puzzle games, and platformers. I play League of Legends but am bad at it.
+I am a gamer. I am a dedicated [Genshin](https://akasha.cv/profile/602552784)/Star Rail player. I like rhythm games (Pump it Up, Dance Dance Revolution, and BeatSaber for example), puzzle games, and platformers.
