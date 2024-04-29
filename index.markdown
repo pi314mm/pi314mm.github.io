@@ -13,12 +13,12 @@ My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachel
 Research
 ------
 - _Compactness via Pattern Stepping Bisimulation_
-**M. Scharager**
-CMU SCS technical report ([pdf](http://reports-archive.adm.cs.cmu.edu/anon/2024/CMU-CS-24-117.pdf))
+- **M. Scharager**
+- CMU SCS technical report ([pdf](http://reports-archive.adm.cs.cmu.edu/anon/2024/CMU-CS-24-117.pdf))
 
 - _Verified Quadratic Virtual Subsitution for Real Arithmetic_
-**M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer    
-Formal Methods (FM) 2021 ([doi](https://link.springer.com/chapter/10.1007%2F978-3-030-90870-6_11) | [arXiv](https://arxiv.org/pdf/2105.14183.pdf) | [AFP](https://www.isa-afp.org/entries/Virtual_Substitution.html))
+- **M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer    
+- Formal Methods (FM) 2021 ([doi](https://link.springer.com/chapter/10.1007%2F978-3-030-90870-6_11) | [arXiv](https://arxiv.org/pdf/2105.14183.pdf) | [AFP](https://www.isa-afp.org/entries/Virtual_Substitution.html))
 
 
 Teaching Experience
