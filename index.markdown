@@ -14,7 +14,7 @@ Research
 ------
 - _Compactness via Pattern Stepping Bisimulation._
 **M. Scharager**.
-CMU SCS technical report ([pdf](http://reports-archive.adm.cs.cmu.edu/anon/2024/CMU-CS-24-117.pdf))
+CMU SCS technical report ([pdf](http://reports-archive.adm.cs.cmu.edu/anon/2024/CMU-CS-24-117.pdf) | [arXiv](https://arxiv.org/abs/2405.01687))
 
 - _Verified Quadratic Virtual Subsitution for Real Arithmetic._
 **M. Scharager**, K. Cordwell, S. Mitsch, and A. Platzer.
