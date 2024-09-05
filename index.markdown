@@ -6,7 +6,7 @@ layout: home
 About Me
 --------
 
-I am a third-year Ph.D. student at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
+I am a fourth-year Ph.D. student at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
 
 My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelor
 
@@ -36,9 +36,3 @@ Work Experience
 - 2019: Applied Research Mathematician and Software Engineer Intern at the National Security Agency
 - 2018: Cybersecurity Developer Intern at Northrop Grumman Xetron
 - 2015: Machine Shop Intern at Max Planck Florida Institute for Neuroscience
-
-Hobbies
--------
-I love watching anime and am involved in anime-like clubs like cosplay. I attend various anime conventions.
-
-I am a gamer. I am a dedicated [Genshin](https://akasha.cv/profile/602552784)/Star Rail player. I like rhythm games (Pump it Up, Dance Dance Revolution, and BeatSaber for example), puzzle games, and platformers.
