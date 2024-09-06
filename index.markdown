@@ -30,6 +30,7 @@ Teaching Experience
 
 Work Experience
 ---------------
+- 2024: Applied Research Scientist Intern at Amazon, NYC
 - 2023: Software Engineering Intern at Amazon, Seattle
 - 2022: Software Engineering Intern at Google, Sunnyvale
 - 2020: Software Engineering Intern at Facebook, Menlo Park
