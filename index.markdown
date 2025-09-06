@@ -6,7 +6,7 @@ layout: home
 About Me
 --------
 
-I am a fourth-year Ph.D. student at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
+I am a Ph.D. student at Carnegie Mellon University's (CMU) Computer Science Department in the areas of programming language theory, type theory, and mechanized verification. My advisor is [Karl Crary](http://www.cs.cmu.edu/~crary/).
 
 My undergrad was at CMU where I graduated in 2021 with a Computer Science Bachelor
 
@@ -30,6 +30,7 @@ Teaching Experience
 
 Work Experience
 ---------------
+- 2025: Cryptography Research Intern at Hedera Hashgraph
 - 2024: Applied Research Scientist Intern at Amazon, NYC
 - 2023: Software Engineering Intern at Amazon, Seattle
 - 2022: Software Engineering Intern at Google, Sunnyvale
